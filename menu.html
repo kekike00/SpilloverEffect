@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Menu</title>
+<style>
+    .wrap{
+        position:relative;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: xx-large;
+        top: 200px;
+    }
+
+    #menuImg{
+        position:absolute;
+        width: 50px;
+        top:100px;
+        left:200px;
+        visibility: hidden;
+    }
+
+    #ch1Img{
+        position:absolute;
+        width: 50px;
+        top:500px;
+        left:500px;
+        visibility: hidden;
+    }
+
+    #ch2Img{
+        position:absolute;
+        width: 50px;
+        top:490px;
+        left:850px;
+        visibility: hidden;
+    }
+
+</style>
+
+<script>
+
+
+</script>
+</head>
+<body>
+
+    <div class="wrap">
+        <div id=menu><a href=index.html>Lobby</a></div>
+        <div><a id=chapter1_link href=chapter1.html>Chapter 1</a></div>
+        <div><a id=chapter2_link href=chapter2.html>Chapter 2</a></div>
+    </div>
+
+    <div class="icons">
+        <img id="menuImg" src="/images/HYNL.png">
+        <img id="ch1Img" src="/images/noise.png">
+        <img id="ch2Img" src="/images/xing/7.jpg">
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="menu.js"></script>
+</body>
+</html>
